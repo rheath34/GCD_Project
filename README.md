@@ -40,7 +40,8 @@ where a mean or standard deviation was recorded. This reduced the number of colu
 variables were then transformed into a factor of 66 levels.
 
 average: The average for each variable(measurement_type), for each activity_description, and each subject_number
-was computed as a numeric value.
+was computed as a numeric value. If a measurement has the prefix 't' it denotes time. Tje 'f' is used to indicate 
+frequency domain signals. The measurements were normalized and fall in the range of -1,1
  
 V.
 run_analysis.R 
